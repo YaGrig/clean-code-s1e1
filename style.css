@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.matrix-img {
+.matrix__img {
   width: 100%;
 }
 
-.matrix .more-inf {
+.matrix .matrix__info {
   font-family: fantasy, cursive;
 }
 
@@ -39,7 +39,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-section__input {
   display: flex;
 }
 
@@ -145,13 +145,13 @@ label[for="new-task"] {
   width: 226px;
 }
 
-.del img {
+.button_del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.del img:hover {
+.button_del img:hover {
   transform: rotateZ(0);
 }
 
@@ -169,12 +169,12 @@ label[for="new-task"] {
 }
 
 
-.edit-mode .input-text {
+.list-item_edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
 
 
-.edit-mode label {
+.list-item_edit-mode label {
   display:none;
 }
