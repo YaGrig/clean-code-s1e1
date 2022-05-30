@@ -139,7 +139,7 @@ label[for="new-task"] {
 }
 
 .list-item >  .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .del img {
@@ -162,7 +162,7 @@ label[for="new-task"] {
 
 /* Edit Task */
 .input-text {
-  display: none
+  display: none;
 }
 
 
