@@ -21,7 +21,7 @@
 }
 
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .matrix { text-align: center;
 }
 
@@ -44,16 +44,16 @@
 }
 
 #incompleted-tasks,#completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -162,13 +162,13 @@ label[for="new-task"] {
 
 /* Edit Task */
 .input-text {
-  display:none
+  display: none
 }
 
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 
